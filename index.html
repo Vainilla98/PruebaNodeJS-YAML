@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documeto</title>
+</head>
+<body>
+    <pre id="texto"></pre>
+    <script>
+        const cargarYAML = async () => {
+            const response = await fetch('yamlo.yml');
+            const blob = await response.blob();
+            console.log(blob)
+            const YAML = await blob.text();
+            console.log(YAML)
+            document.getElementById("texto").innerText = YAML;
+        }
+        const cargarYAML2 = async () => {
+            const response = await fetch('yamlo.yml');
+            const blob = await response.blob();
+            console.log(blob)
+            const textoJSON = await blob.text();
+            console.log(textoJSON)
+            const repsuestaObj = JSON.parse(textoJSON)
+            console.log(repsuestaObj)
+        }
+        cargarYAML()
+    </script>
+</body>
+</html>

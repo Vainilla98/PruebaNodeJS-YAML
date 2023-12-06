@@ -1,0 +1,54 @@
+guerra de sucesion polaca: 
+  lugar: República de las 2 naciones
+  añoInicio: 1733-02-15
+  añoFin: 1738-11-18
+  diasNegociacion: 16.5
+  bando1:
+    ganador: true
+    bajas: 53000
+    pretendiente: Estanislao I 
+    apoyos: 
+      - 
+        nombre: Reino de Francia
+        comandante: Duqe de Berwik
+      - 
+        nombre: Reino de España
+        comandante: Duque de Parma
+      - 
+        nombre: Reino de Cerdeña
+        comandante: Carlos Manuel III
+  bando2:
+    ganador: false
+    pretendiente: Augusto III
+    bajas: 30000
+    apoyos: 
+      - 
+        nombre: Imperio Ruso
+        comandante: Conde Lacy
+      - 
+        nombre: Archiducado Austriaco
+        comandante: 
+        - Conde de Abensberg-Traun
+        - Friedrich Heinrich von Seckendorff 
+        - Eugenio franciso de Saboya 
+      - 
+        nombre: Reino de Prusia
+        comandante: null
+      - 
+        nombre: Electorado de Sajonia
+        comandante: null
+
+provincias: 
+  - albacete:
+      nombre: Albacete
+      provincia: Albacete
+      capital: true 
+  - valdepeñas:
+      nombre: Valdepeñas
+      provincia: Ciudad Real
+  - hellín: 
+      nombre: Hellín
+      provincia: Albacete
+  - consuegra:
+      nombre: Consuegra
+      provincia: Toledo
